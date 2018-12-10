@@ -99,9 +99,9 @@ void quickSortBegin(int v[], int begin, int end){
 	
 	
 		if (begin < end) {
-			int meio = partitionbegin(v,begin,end);
-			quickSortBegin(v,begin, meio - 1);
-			quickSortBegin(v, meio + 1, end);	
+			int middle = partitionBegin(v,begin,end);
+			quickSortBegin(v,begin, middle - 1);
+			quickSortBegin(v, middle + 1, end);	
     	}
     
     
